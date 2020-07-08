@@ -3,7 +3,7 @@ main {
 	text-align: center;
 }
 
-.producoes {
+.promocoes {
 	width: 70%;
 	margin: 0 20px;
 	padding: 50px 0;
@@ -13,32 +13,26 @@ main {
 }
 
 
-.producoes li { 
+.promocoes li { 
 	display: inline-block;
 	text-align: center;
 	width:30%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 0 0 0;
-
 	margin: 1em;
 	
 	
 }
 
-.producoes li:hover {
-	border-color: #C78C19;
+.promocoes li:hover {
+	transform: scale(1.9);
 }
 
-.producoes p {
+.primeira {
 
-	text-align: center;
-	color: #C78C19;
-	padding: 2em;
-	
+	height: 239px;
+
+
 }
 
-.producoes a {
-
-	text-decoration: none;
-}
