@@ -1,0 +1,140 @@
+/* cabeçalho */
+
+body {
+
+	background: linear-gradient(#FFFFFF, #A9A9A9);
+	font-family: 'Playfair Display', serif;
+}
+
+header {
+
+	background: maroon;
+	padding: 20px 0;
+}
+
+.caixa {
+
+	
+	position: relative;
+	width: 940px;
+	margin-left: 5%
+
+	
+}
+
+.caixa:hover {
+
+	color: #C78C19;
+	opacity: 0.7;
+	
+}
+
+.logo {
+
+	color: white;
+	position: static;
+	width:15%;
+}
+
+.nome {
+
+
+	font-size: 30px;
+	padding-left: 5%
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 20px;
+}
+
+.subnome {
+
+	font-size: 20px;
+
+}
+
+nav {
+
+	position: absolute;
+	top: 110px;
+	right: 0;
+	left:50%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {  
+	
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+/* rodapé */
+
+footer {
+	text-align: center;
+	background: maroon;
+	padding: 40px;
+	color: white;
+}
+
+.fone {
+
+	display: inline;
+	padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+
+.contatos {
+
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.wpp {
+
+	display: inline;
+	padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+
+.redes {
+
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 20px;
+	
+}
+
+.fb {
+
+
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.insta {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.titulos {
+
+	padding: 2em;
+	font-size: 20px;
+
+
+	font-weight: bold;
+}
