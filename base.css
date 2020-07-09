@@ -138,3 +138,17 @@ footer {
 
 	font-weight: bold;
 }
+
+/* celular */
+
+@media screen and (max-width: 480px) {
+	header, footer, .banner {
+		width: 1200px;
+
+	}
+	nav {
+
+		text-align: center;
+        position: static;
+        padding-right: 20px;
+	}

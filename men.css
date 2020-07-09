@@ -80,3 +80,23 @@ strong {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+
+@media screen and (max-width: 480px) {
+
+main {
+
+	height: 2000px;
+	width: 1200px;
+}
+
+.servicos {
+
+	height: 1500px;
+    display: inline-flex;
+    border-top: 500px;
+    margin-top: 500px;
+    width: 100%;
+}
+
+}
