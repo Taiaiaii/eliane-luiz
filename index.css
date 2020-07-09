@@ -155,12 +155,12 @@ strong, h2 {
 
 @media screen and (max-width: 480px) {
 	header, footer, .banner {
-		width: 940px;
+		width: 1200px;
 
 	}
 	nav {
 
-		text-align: right;
+		text-align: center;
         position: static;
         padding-right: 20px;
 	}
