@@ -82,13 +82,16 @@ body {
 
 main {
 
-	height: 1000px;
-	width: 1200px;
+	
+	height: 2000px;
+	width: 100%;
 }
 
 .produtos {
-
-	margin-top: 200px;
+	
+	width: 100%;
+	height: auto;
+	padding-top: 50%;
 }
 
 }

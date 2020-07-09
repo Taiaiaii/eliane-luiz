@@ -84,19 +84,19 @@ strong {
 
 @media screen and (max-width: 480px) {
 
-main {
+	main {
 
-	height: 2000px;
-	width: 1200px;
-}
+		height: 2000px;
+		width: 100%;
+	}
 
-.servicos {
+	.servicos {
 
-	height: 1500px;
-    display: inline-flex;
-    border-top: 500px;
-    margin-top: 500px;
-    width: 100%;
-}
+		height: auto;
+	    display: inline-block;
+	    width: 90%;
+	    margin-top: 50%;
+
+	}
 
 }

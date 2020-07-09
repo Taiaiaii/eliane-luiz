@@ -153,27 +153,17 @@ strong, h2 {
 
 /* celular */
 
-@media screen and (max-width: 480px) {
-	header, footer, .banner {
-		width: 1200px;
-
-	}
-	nav {
-
-		text-align: center;
-        position: static;
-        padding-right: 20px;
-	}
 	.sobre, .diferenciais {
 
-		     width: 920px;
+		     width: 90%;
     		padding: 20px;
 	}
 
 
 	.mapa, .mapa-conteudo {
 
-		    width: 900px;
+		    width: 90%;
     		padding: 20px;
+    		margin-right: 0px;
 	}
-}
+

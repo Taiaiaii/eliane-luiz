@@ -42,3 +42,22 @@ main {
 
 	text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+
+	main {
+
+		height: 2000px;
+		width: 100%;
+	}
+
+	.producoes {
+
+		height: auto;
+	    display: inline-block;
+	    width: 90%;
+	    margin-top: 30%;
+
+	}
+
+}

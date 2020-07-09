@@ -1,5 +1,10 @@
 /* cabeçalho */
 
+html, body {
+
+	width: 100%;
+}
+
 body {
 
 	background: linear-gradient(#FFFFFF, #A9A9A9);
@@ -142,9 +147,21 @@ footer {
 /* celular */
 
 @media screen and (max-width: 480px) {
-	header, footer, .banner {
-		width: 1200px;
 
+	html, body {
+
+		width: 1500px;
+	}
+
+	header, footer  {
+		width: 100%;
+		box-sizing: border-box;
+
+	}
+
+	.banner{
+
+		width: 100%;
 	}
 	nav {
 
@@ -152,3 +169,4 @@ footer {
         position: static;
         padding-right: 20px;
 	}
+}
