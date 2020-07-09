@@ -75,11 +75,14 @@ strong, h2 {
 
 .lista-diferenciais {
 
+	text-align: left;
+
 	padding: 3em;
 	padding-right: 0;
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
+	
 
 
 }
@@ -89,6 +92,7 @@ strong, h2 {
 	line-height: 1.5; 
 	opacity: 1;
 	transition: 400ms;
+	
 }
 
 .itens:hover {
@@ -147,3 +151,29 @@ strong, h2 {
 	
 }
 
+/* celular */
+
+@media screen and (max-width: 480px) {
+	header, footer, .banner {
+		width: 940px;
+
+	}
+	nav {
+
+		text-align: right;
+        position: static;
+        padding-right: 20px;
+	}
+	.sobre, .diferenciais {
+
+		     width: 920px;
+    		padding: 20px;
+	}
+
+
+	.mapa, .mapa-conteudo {
+
+		    width: 900px;
+    		padding: 20px;
+	}
+}
