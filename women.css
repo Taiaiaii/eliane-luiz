@@ -36,6 +36,7 @@ position: relative;
 	display: inline-block;
 }
 
+
 .tabelas li{ 
 	display: inline-block;
 	text-align: center;
@@ -45,4 +46,27 @@ position: relative;
 	padding: 20px 20px;
 	box-sizing: border-box;
 	height:447px;
+}
+strong {
+
+	font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+
+	main {
+
+		height: 2000px;
+		width: 100%;
+	}
+
+	.servicos {
+
+		height: auto;
+	    display: inline-block;
+	    width: 90%;
+	    margin-top: 50%;
+
+	}
+
 }

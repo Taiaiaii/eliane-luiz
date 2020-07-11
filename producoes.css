@@ -43,6 +43,7 @@ main {
 	text-decoration: none;
 }
 
+
 .voltar {
 
 	padding: 20px;
@@ -67,4 +68,25 @@ button {
   font-size: 14px;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
+
+}
+
+@media screen and (max-width: 480px) {
+
+	main {
+
+		height: 2000px;
+		width: 100%;
+	}
+
+	.producoes {
+
+		height: auto;
+	    display: inline-block;
+	    width: 90%;
+	    margin-top: 30%;
+
+	}
+
+
 }

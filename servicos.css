@@ -73,3 +73,25 @@ body {
 	text-decoration: none;
 	color: black;
 }
+
+
+
+/* celular */
+
+@media screen and (max-width: 480px) {
+
+main {
+
+	
+	height: 2000px;
+	width: 100%;
+}
+
+.produtos {
+	
+	width: 100%;
+	height: auto;
+	padding-top: 50%;
+}
+
+}

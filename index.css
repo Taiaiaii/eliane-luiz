@@ -75,11 +75,14 @@ strong, h2 {
 
 .lista-diferenciais {
 
+	text-align: left;
+
 	padding: 3em;
 	padding-right: 0;
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
+	
 
 
 }
@@ -89,6 +92,7 @@ strong, h2 {
 	line-height: 1.5; 
 	opacity: 1;
 	transition: 400ms;
+	
 }
 
 .itens:hover {
@@ -146,4 +150,20 @@ strong, h2 {
 	padding-top: 0;
 	
 }
+
+/* celular */
+
+	.sobre, .diferenciais {
+
+		     width: 90%;
+    		padding: 20px;
+	}
+
+
+	.mapa, .mapa-conteudo {
+
+		    width: 90%;
+    		padding: 20px;
+    		margin-right: 0px;
+	}
 
