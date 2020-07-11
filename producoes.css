@@ -33,7 +33,7 @@ main {
 .producoes p {
 
 	text-align: center;
-	color: #C78C19;
+	color: #903035;
 	padding: 2em;
 	
 }
@@ -41,4 +41,30 @@ main {
 .producoes a {
 
 	text-decoration: none;
+}
+
+.voltar {
+
+	padding: 20px;
+}
+
+.voltar a {
+
+	background: grey;
+	text-decoration: none;
+	color: #903035;
+}
+
+button {
+  
+  background-color: #A9A9A9;
+  border: none;
+  color: grey;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
 }
