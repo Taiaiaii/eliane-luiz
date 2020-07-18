@@ -39,6 +39,8 @@ strong, h2 {
 .texto {
 	font-size: 20px;
 	margin: 0 0 1em;
+	text-align: center;
+	padding: 10px 160px;
 
 }
 .imagem-diversidade {
@@ -164,6 +166,72 @@ strong, h2 {
 
 		    width: 90%;
     		padding: 20px;
-    		margin-right: 0px;
+			margin-right: 0px;
 	}
+/*covid */
+
+.covid {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	border: 7px solid#B8860B;
+	border-radius: 5px;
+	background-color: #903035;
+	margin: 10px 40px;
+}
+
+.covid:hover {
+	border: 7px ridge white;
+}
+
+.titulo-covid {
+	 padding: 15px;
+	 font-size: 25px;
+	 color: #B8860B;
+	 text-decoration: underline;
+
+}
+
+.titulo-covid:hover {
+
+	transform: scale(1.2);
+	color: lightgrey;
+	text-decoration: underline;
+} 
+
+.covid a {
+
+	text-decoration: none;
+}
+
+.cuidados {
+
+	padding: 1em;
+}
+
+}
+
+.precaucoes {
+	width: 70%;
+	margin: 0 20px;
+	padding: 50px 0;
+	display: inline-block;
+    text-align: center;
+    background: white;
+	
+}
+
+
+.precaucoes li { 
+	display: inline-block;
+	text-align: center;
+	width:25%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 20px 0 0 0;
+    margin: 1em;
+ 
+	
+	
+}
 

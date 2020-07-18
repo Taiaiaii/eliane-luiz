@@ -3,73 +3,50 @@ main {
 	text-align: center;
 }
 
+table {
+	margin-right: 0px;
+}
+
+thead {
+	background: #903035;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+strong {
+
+	font-weight: bold;
+}
+
 .servicos {
-	width: 70%;
-	margin: 0 20px;
-	padding: 50px 0;
-	display: inline-block;
+
+position: relative;
+		
+}
+
+.tabelas {
+
+	width: 100%;
 	text-align: center;
+	display: inline-block;
 }
 
 
-.servicos li.iten-principal{ 
+.tabelas li{ 
 	display: inline-block;
 	text-align: center;
-	width:30%;
+	
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
 	height:447px;
 }
-
-.servicosli:hover {
-	border-color: #C78C19;
-}
-
-.servicos h2 {
-	font-size: 30px;
-	font-weight: bold;
-	padding: 1em;
-}
-
-.servicos p {
-	font-size: 18px
-	width: 100%;
-	vertical-align: auto;
-	text-align: left;
-}
-
-
-
-.cabelos {
-
-	width: 30%;
-
-}
-
-
-#unhas li {
-
-	text-align: center;
-}
-
-
-
-
-.lista li {
-
-	padding-bottom: 15px;
-	text-align: left;
-}
-
-.lista li:hover {
-
-	color: #C78C19;
-}
-
 strong {
 
 	font-weight: bold;

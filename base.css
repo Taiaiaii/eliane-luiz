@@ -7,13 +7,13 @@ html, body {
 
 body {
 
-	background: linear-gradient(#FFFFFF, #A9A9A9);
+	background: linear-gradient(#DCDCDC, #A9A9A9);
 	font-family: 'Playfair Display', serif;
 }
 
 header {
 
-	background: maroon;
+	background: #903035;
 	padding: 20px 0;
 }
 
@@ -38,24 +38,9 @@ header {
 
 	color: white;
 	position: static;
-	width:15%;
+	width:40%;
 }
 
-.nome {
-
-
-	font-size: 30px;
-	padding-left: 5%
-	font-weight: bold;
-	font-style: italic;
-	margin-left: 20px;
-}
-
-.subnome {
-
-	font-size: 20px;
-
-}
 
 nav {
 
@@ -74,7 +59,7 @@ nav a {
 	
 	font-family: 'Playfair Display', serif;
 	text-transform: uppercase;
-	color: #000000;
+	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 20px;
 	text-decoration: none;
@@ -90,7 +75,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: maroon;
+	background: #903035;
 	padding: 40px;
 	color: white;
 }

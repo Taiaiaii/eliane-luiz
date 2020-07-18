@@ -33,14 +33,54 @@ main {
 .producoes p {
 
 	text-align: center;
-	color: #C78C19;
+	color: #903035;
 	padding: 2em;
+	font-weight: bold;
 	
 }
 
 .producoes a {
 
 	text-decoration: none;
+}
+
+
+.voltar {
+
+	padding: 20px;
+}
+
+.voltar a {
+
+	
+	text-decoration: none;
+	color: #903035;
+}
+
+button {
+  
+  background-color: #903035;
+  border: 4px solid #B8860B;
+	border-radius: 5px;
+  
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  margin: 2em;
+
+}
+
+button p {
+    color: white;
+}
+
+button:hover {
+
+    border: 7px ridge white;
 }
 
 @media screen and (max-width: 480px) {
@@ -59,5 +99,6 @@ main {
 	    margin-top: 30%;
 
 	}
+
 
 }
