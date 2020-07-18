@@ -137,7 +137,9 @@ footer {
 
 		width: 1500px;
 	}
-
+	p {
+		font-size: larger;
+	}
 	header, footer  {
 		width: 100%;
 		box-sizing: border-box;
@@ -152,6 +154,13 @@ footer {
 
 		text-align: center;
         position: static;
-        padding-right: 20px;
+		padding-right: 20px;
+		padding-top: 0px;
+		
+	}
+
+	nav a {
+		
+		font-size: 50px;
 	}
 }

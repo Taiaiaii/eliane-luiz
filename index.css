@@ -153,21 +153,7 @@ strong, h2 {
 	
 }
 
-/* celular */
 
-	.sobre, .diferenciais {
-
-		     width: 90%;
-    		padding: 20px;
-	}
-
-
-	.mapa, .mapa-conteudo {
-
-		    width: 90%;
-    		padding: 20px;
-			margin-right: 0px;
-	}
 /*covid */
 
 .covid {
@@ -233,5 +219,64 @@ strong, h2 {
  
 	
 	
+}
+
+/* celular */
+@media screen and (max-width: 480px) {
+	.sobre, .diferenciais {
+			font-size: 50px;
+		     width: 90%;
+    		padding: 20px;
+	}
+
+
+	.mapa, .mapa-conteudo {
+
+		    width: 90%;
+    		padding: 20px;
+			margin-right: 0px;
+	}
+
+	.lista-diferenciais {
+		padding: 0;
+		width: 60%;
+	}
+
+	.titulos {
+		font-size: 60px;
+	}
+
+	.imagem-diferenciais {
+
+		width: 40%;
+	}
+
+	.texto {
+
+		font-size: 70px;
+		padding: 20px 0;
+	}
+
+	.covid {
+
+		box-sizing: border-box;
+		width: 90%;
+		
+
+	}
+
+	.titulo-covid  {
+
+		font-size: 60px;
+	}
+
+	.cuidados {
+		font-size: 50px;
+	}
+
+	.mapa p {
+
+		font-size: 60px;
+	}
 }
 
