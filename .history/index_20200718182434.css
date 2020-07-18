@@ -185,8 +185,8 @@ strong, h2 {
 }
 
 .titulo-covid {
-	 padding: 15px;
-	 font-size: 25px;
+	 padding: 10px;
+	 font-size: 20px;
 	 color: #B8860B;
 	 text-decoration: underline;
 
@@ -230,8 +230,13 @@ strong, h2 {
 	margin: 0 1.5%;
 	padding: 20px 0 0 0;
     margin: 1em;
- 
+    border: 7px solid#B8860B;
+	border-radius: 5px;
 	
 	
 }
 
+.precaucoes li:hover {
+
+    border: 7px ridge white;
+}
