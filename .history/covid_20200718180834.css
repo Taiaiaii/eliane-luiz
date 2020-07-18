@@ -1,9 +1,10 @@
 main {
 
-	text-align: center;
+    text-align: center;
+    background: white;
 }
 
-.producoes {
+.precaucoes {
 	width: 70%;
 	margin: 0 20px;
 	padding: 50px 0;
@@ -13,48 +14,31 @@ main {
 }
 
 
-.producoes li { 
+.precaucoes li { 
 	display: inline-block;
 	text-align: center;
-	width:30%;
+	width:25%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 0 0 0;
-
-	margin: 1em;
+    margin: 1em;
+    border: 7px solid#B8860B;
+	border-radius: 5px;
 	
 	
 }
 
-.producoes li:hover {
-	border-color: #C78C19;
-}
+.precaucoes li:hover {
 
-.producoes p {
-
-	text-align: center;
-	color: #903035;
-	padding: 2em;
-	font-weight: bold;
-	
-}
-
-.producoes a {
-
-	text-decoration: none;
-}
-
-
-.voltar {
-
-	padding: 20px;
+    border: 7px ridge white;
 }
 
 .voltar a {
 
-	
+	background: grey;
 	text-decoration: none;
-	color: #903035;
+    color: #903035;
+    padding: 10px;
 }
 
 button {
@@ -70,35 +54,9 @@ button {
   font-size: 14px;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
-  margin: 2em;
 
 }
 
 button p {
     color: white;
-}
-
-button:hover {
-
-    border: 7px ridge white;
-}
-
-@media screen and (max-width: 480px) {
-
-	main {
-
-		height: 2000px;
-		width: 100%;
-	}
-
-	.producoes {
-
-		height: auto;
-	    display: inline-block;
-	    width: 90%;
-	    margin-top: 30%;
-
-	}
-
-
 }

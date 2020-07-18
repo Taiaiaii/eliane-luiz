@@ -166,7 +166,7 @@ strong, h2 {
 
 		    width: 90%;
     		padding: 20px;
-			margin-right: 0px;
+    		margin-right: 0px;
 	}
 /*covid */
 
@@ -181,21 +181,20 @@ strong, h2 {
 }
 
 .covid:hover {
-	border: 7px ridge white;
+	border: 7px solid white;
 }
 
 .titulo-covid {
 	 padding: 10px;
 	 font-size: 20px;
-	 color: #B8860B;
-	 text-decoration: underline;
+	 color: lightgrey;
 
 }
 
 .titulo-covid:hover {
 
 	transform: scale(1.2);
-	color: lightgrey;
+	color: #B8860B;
 	text-decoration: underline;
 } 
 

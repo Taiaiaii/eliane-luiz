@@ -167,6 +167,8 @@ strong, h2 {
 		    width: 90%;
     		padding: 20px;
 			margin-right: 0px;
+			border: 4px solid #B8860B;
+			border-radius: 5px;
 	}
 /*covid */
 

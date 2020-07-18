@@ -166,45 +166,18 @@ strong, h2 {
 
 		    width: 90%;
     		padding: 20px;
-			margin-right: 0px;
+    		margin-right: 0px;
 	}
 /*covid */
 
 .covid {
-	font-size: 18px;
-	color: white;
-	text-align: center;
-	border: 7px solid#B8860B;
-	border-radius: 5px;
-	background-color: #903035;
-	margin: 10px 40px;
-}
 
-.covid:hover {
-	border: 7px ridge white;
+	text-align: center;
+	border: 10px solid #903035;
+	background-color: #903035;
 }
 
 .titulo-covid {
 	 padding: 10px;
-	 font-size: 20px;
-	 color: #B8860B;
-	 text-decoration: underline;
 
-}
-
-.titulo-covid:hover {
-
-	transform: scale(1.2);
-	color: lightgrey;
-	text-decoration: underline;
-} 
-
-.covid a {
-
-	text-decoration: none;
-}
-
-.cuidados {
-
-	padding: 1em;
 }
