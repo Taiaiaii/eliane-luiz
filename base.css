@@ -163,4 +163,15 @@ footer {
 		
 		font-size: 50px;
 	}
+
+	.contatos, .redes {
+
+		transform: scale(1.4);
+		padding-bottom: 1em;
+		padding-left: 15px;
+	}
+
+	h4, h5 {
+		transform: scale(1.2);
+	}
 }
