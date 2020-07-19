@@ -19,13 +19,13 @@ body {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
+	border: 7px solid#B8860B;
+	border-radius: 5px;
 
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border: 7px ridge white;
 }
 
 .produtos li:active {
@@ -55,11 +55,13 @@ body {
 .mulher {
 
 	padding: 20px 0;
+	width: 233px;
 }
 
 .homem {
 
 	padding: 50px 0;
+	width: 241px;
 }
 
 .women {

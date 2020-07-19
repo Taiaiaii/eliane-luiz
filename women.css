@@ -1,6 +1,9 @@
 main {
 
 	text-align: center;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
 }
 
 table {
@@ -23,24 +26,10 @@ strong {
 	font-weight: bold;
 }
 
-.servicos {
 
-position: relative;
-		
-}
-
-.tabelas {
-
-	width: 100%;
-	text-align: center;
-	display: inline-block;
-}
-
-
-.tabelas li{ 
+.div-cabelos, .div-unhas, .div-pelos{ 
 	display: inline-block;
 	text-align: center;
-	
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 20px;
@@ -58,15 +47,34 @@ strong {
 
 		height: 2000px;
 		width: 100%;
+		padding-left: 20%;
 	}
 
 	.servicos {
 
-		height: auto;
-	    display: inline-block;
-	    width: 90%;
-	    margin-top: 50%;
+		
+		transform: scale(2.3);
+	    display: block;
+	    width: 50%;
+		margin-top: 30%;
+		
 
 	}
 
+	.div-cabelos, .div-unhas, .div-pelos {
+
+		width: 60%;
+		margin: 20px;
+	}
+
+	#table-unha {
+
+		padding-top: 150px;
+	}
+
+	#table-pelos {
+
+		padding-top: 120px;
+
+	}
 }
