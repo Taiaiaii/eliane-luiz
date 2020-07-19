@@ -118,6 +118,7 @@ button:hover {
 	button {
 
 		margin-top: 20%;
+		transform: scale(1.6);
 	}
 
 

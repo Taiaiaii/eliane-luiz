@@ -46,10 +46,11 @@ main {
 
 	.promocoes {
 
+		transform: scale(2.0);
 		height: auto;
 	    display: inline-block;
-	    width: 90%;
-	    margin-top: 50%;
+	    width: 70%;
+	    margin-top: 40%;
 
 	}
 
