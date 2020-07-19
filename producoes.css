@@ -96,8 +96,28 @@ button:hover {
 		height: auto;
 	    display: inline-block;
 	    width: 90%;
-	    margin-top: 30%;
+		margin-top: 30%;
+		transform: scale(1.6);
 
+	}
+
+	.producoes li {
+
+		width: 31%;
+		padding: 10px 0px;
+		transform: scale(1.2);
+		padding-top: 30px;
+	}
+
+	.producoes p {
+
+		transform: scale(1.2);
+
+	}
+
+	button {
+
+		margin-top: 20%;
 	}
 
 
