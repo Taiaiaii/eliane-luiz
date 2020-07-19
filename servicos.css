@@ -89,9 +89,24 @@ main {
 
 .produtos {
 	
+	transform: scale(1.4);
 	width: 100%;
-	height: auto;
-	padding-top: 50%;
+	height: 80%;
+	padding-top: 20%;
+	box-sizing: border-box;
+}
+
+.produtos li{
+	transform: scale(1.2);
+	width: 50%;
+	padding: 10px;
+	margin: 50px;
+
+}
+
+h2, p {
+
+	transform: scale(1.4);
 }
 
 }
