@@ -1,4 +1,3 @@
-
 .banner {
 
 	position: static;
@@ -11,7 +10,6 @@ main {
 
 	width: 100%;
 	font-family: 'Playfair Display', serif;
-	
 
 }
 
@@ -19,86 +17,65 @@ main {
 
 	width: 940px;
 	margin: 0 auto;
+	padding: 3em auto;
 
-	padding: 3em 0;
-	
 }
 
-strong, h2 {
-
+strong,h2 {
 	font-weight: bold;
+}
+
+em {
+
+	font-style: italic;
 }
 
 .titulo-principal {
 	text-align: center;
 	font-size: 1.5em;
-	margin: 0 0 1em;
+	margin: 1em 0 1em;
 	clear: left;
 }
 
 .texto {
 	font-size: 20px;
 	margin: 0 0 1em;
-	text-align: center;
-	padding: 10px 160px;
-
-}
-.imagem-diversidade {
-	width: 120px;
-	float: left;
-	margin: 0 20px 20px 0;
-	transition: 400ms;
-	box-shadow: 10px 10px 10px #000000;
-
-}
-
-.imagem-diversidade:hover{
-
-	opacity: 0.3;
+	text-align: justify;
+	padding: 1px 140px;
+	line-height: 1.5em;
+	text-indent: 1.5em;
 }
 
 .diferenciais {
-	
+
 	width: 100%;
 	text-align: center;
-	padding: 3em 0;
+	padding: 3em auto;
 }
 
 .conteudo-diferenciais {
-
-
 	display: inline-block;
 	width: 80%;
 	margin: 0 auto;
 
 }
 
-
-
 .lista-diferenciais {
-
-	text-align: left;
-
-	padding: 3em;
-	padding-right: 0;
+	text-align: justify;
+	padding: 3em 0 3em;
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
-	
-
 
 }
 
 .itens {
-
-	line-height: 1.5; 
+	line-height: 1.5;
 	opacity: 1;
 	transition: 400ms;
-	
 }
 
 .itens:hover {
-
 	opacity: 0.3;
 }
 
@@ -108,49 +85,40 @@ strong, h2 {
 }
 
 .imagem-diferenciais {
-	
-
 	width: 20%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px #000000;
 }
 
-.imagem-diferenciais:hover{
+.imagem-diferenciais:hover {
 
 	opacity: 0.3;
 }
 
 .video {
 	width: 560px;
-	margin: 5em auto;
-	margin-top: 5em;
-	
+	margin: 4em auto;
 
 }
 
 .mapa {
-
-	padding: 3em 0;
-	padding-top: 0;
-	
+	padding-bottom: 3em;
 }
 
 .mapa-conteudo {
-
 	width: 940px;
-	margin: 0 auto;
-	padding-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .mapa p {
-
-	margin: 0 0 2em;
 	text-align: center;
 	font-size: 20px;
 	padding: 1em;
-	padding-top: 0;
-	
+
+
 }
 
 
@@ -171,10 +139,10 @@ strong, h2 {
 }
 
 .titulo-covid {
-	 padding: 15px;
-	 font-size: 25px;
-	 color: #B8860B;
-	 text-decoration: underline;
+	padding: 15px;
+	font-size: 25px;
+	color: #B8860B;
+	text-decoration: underline;
 
 }
 
@@ -183,7 +151,7 @@ strong, h2 {
 	transform: scale(1.2);
 	color: lightgrey;
 	text-decoration: underline;
-} 
+}
 
 .covid a {
 
@@ -192,7 +160,9 @@ strong, h2 {
 
 .cuidados {
 
-	padding: 1em;
+	text-align: center;
+	line-height: 1.5em;
+	text-indent: 2em;
 }
 
 }
@@ -202,39 +172,42 @@ strong, h2 {
 	margin: 0 20px;
 	padding: 50px 0;
 	display: inline-block;
-    text-align: center;
-    background: white;
-	
+	text-align: center;
+	background: white;
+
 }
 
 
-.precaucoes li { 
+.precaucoes li {
 	display: inline-block;
 	text-align: center;
-	width:25%;
+	width: 25%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 0 0 0;
-    margin: 1em;
- 
-	
-	
+	margin: 1em;
+
+
+
 }
 
 /* celular */
 @media screen and (max-width: 480px) {
-	.sobre, .diferenciais {
-			font-size: 50px;
-		     width: 90%;
-    		padding: 20px;
+
+	.sobre,
+	.diferenciais {
+		font-size: 50px;
+		width: 90%;
+		padding: 20px;
 	}
 
 
-	.mapa, .mapa-conteudo {
+	.mapa,
+	.mapa-conteudo {
 
-		    width: 90%;
-    		padding: 20px;
-			margin-right: 0px;
+		width: 90%;
+		padding: 20px;
+		margin-right: 0px;
 	}
 
 	.lista-diferenciais {
@@ -261,11 +234,11 @@ strong, h2 {
 
 		box-sizing: border-box;
 		width: 90%;
-		
+
 
 	}
 
-	.titulo-covid  {
+	.titulo-covid {
 
 		font-size: 60px;
 	}
@@ -279,4 +252,3 @@ strong, h2 {
 		font-size: 60px;
 	}
 }
-
