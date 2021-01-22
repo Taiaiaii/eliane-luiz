@@ -1,43 +1,34 @@
-main {
+site-container{
 
 	text-align: center;
 }
 
 .promocoes {
-	width: 70%;
-	margin: 0 20px;
+	width: 100%;
 	padding: 50px 0;
 	display: inline-block;
-	text-align: center;
-	
 }
 
 
 .promocoes li { 
 	display: inline-block;
-	text-align: center;
 	width:30%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 0 0 0;
-	margin: 1em;
-	
+
 	
 }
 
 .promocoes li:hover {
-	transform: scale(1.9);
+	transform: scale(1.6);
 }
 
 .primeira {
-
 	height: 239px;
-
-
 }
 
 .terceirai {
-
 	width: 329px;
 
 

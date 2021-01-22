@@ -1,22 +1,22 @@
-main {
+.site-container {
 
 	text-align: center;
 	width: 100%;
 	text-align: center;
 	display: inline-block;
+
 }
 
-table {
-	margin-right: 0px;
-}
 
-thead {
+.iten-principal{
 	background: #903035;
 	color: white;
 	font-weight: bold;
+	
 }
 
-td, th{
+td,
+th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
@@ -27,19 +27,19 @@ strong {
 }
 
 
-.div-cabelos, .div-unhas, .div-pelos{ 
+.div-cabelos,
+.div-unhas,
+.div-pelos {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 20px 20px;
 	box-sizing: border-box;
-	height:447px;
+	height: 447px;
 }
-strong {
 
-	font-weight: bold;
-}
+
 
 @media screen and (max-width: 480px) {
 
@@ -52,16 +52,18 @@ strong {
 
 	.servicos {
 
-		
+
 		transform: scale(2.3);
-	    display: block;
-	    width: 50%;
+		display: block;
+		width: 50%;
 		margin-top: 30%;
-		
+
 
 	}
 
-	.div-cabelos, .div-unhas, .div-pelos {
+	.div-cabelos,
+	.div-unhas,
+	.div-pelos {
 
 		width: 60%;
 		margin: 20px;
