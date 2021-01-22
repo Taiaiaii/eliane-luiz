@@ -1,62 +1,59 @@
 /* cabeçalho */
-
-html, body {
-
-	width: 100%;
-}
-
-body {
+html {
 
 	background: linear-gradient(#DCDCDC, #A9A9A9);
+}
+
+.site-container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Playfair Display', serif;
 }
 
-header {
+.cabecalho-principal {
 
 	background: #903035;
-	padding: 20px 0;
+	padding: 10px 0;
+	
 }
 
 .caixa {
 
-	
 	position: relative;
 	width: 940px;
 	margin-left: 5%
-
-	
 }
 
 .caixa:hover {
 
 	color: #C78C19;
 	opacity: 0.7;
-	
+
 }
 
 .logo {
 
-	color: white;
-	position: static;
-	width:40%;
+
+	width: 40%;
 }
 
 
-nav {
+.menu {
 
 	position: absolute;
-	top: 110px;
+	top: 100px;
 	right: 0;
-	left:50%;
+	left: 50%;
 }
 
-nav li {
+.menu li {
 	display: inline;
-	margin: 0 0 0 15px;
+	margin-left: 15px;
 }
 
-nav a {  
-	
+.menu a {
+
 	font-family: 'Playfair Display', serif;
 	text-transform: uppercase;
 	color: #FFFFFF;
@@ -65,7 +62,7 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover {
+.menu a:hover {
 
 	color: #C78C19;
 	text-decoration: underline;
@@ -73,18 +70,19 @@ nav a:hover {
 
 /* rodapé */
 
-footer {
+.rodape-principal {
 	text-align: center;
 	background: #903035;
-	padding: 40px;
+	padding: 20px;
 	color: white;
+	
 }
 
-.fone {
+.fone .wpp {
 
 	display: inline;
 	padding-right: 0.5em;
-    padding-top: 0.5em;
+	padding-top: 0.5em;
 }
 
 .contatos {
@@ -93,39 +91,24 @@ footer {
 	padding: 0 20px;
 }
 
-.wpp {
-
-	display: inline;
-	padding-right: 0.5em;
-    padding-top: 0.5em;
-}
 
 .redes {
-
 	vertical-align: top;
 	display: inline-block;
 	padding: 0 20px;
-	
+
 }
 
-.fb {
-
-
+.fb .insta {
 	padding-top: 10px;
 	padding-left: 20px;
 }
 
-.insta {
-	padding-top: 10px;
-	padding-left: 20px;
-}
 
 .titulos {
 
 	padding: 2em;
 	font-size: 20px;
-
-
 	font-weight: bold;
 }
 
@@ -133,45 +116,44 @@ footer {
 
 @media screen and (max-width: 480px) {
 
-	html, body {
+	.site-container {
 
 		width: 1500px;
 	}
+
 	p {
 		font-size: larger;
 	}
-	header, footer  {
+
+	.cabecalho-principal .rodape-principal {
 		width: 100%;
 		box-sizing: border-box;
 
 	}
 
-	.banner{
+	.banner {
 
 		width: 100%;
 	}
-	nav {
+
+	.menu {
 
 		text-align: center;
-        position: static;
+		position: static;
 		padding-right: 20px;
 		padding-top: 0px;
-		
+
 	}
 
-	nav a {
-		
+	.menu a {
+
 		font-size: 50px;
 	}
 
-	.contatos, .redes {
+	.contatos.redes {
 
 		transform: scale(1.4);
 		padding-bottom: 1em;
 		padding-left: 15px;
-	}
-
-	h4, h5 {
-		transform: scale(1.2);
 	}
 }
